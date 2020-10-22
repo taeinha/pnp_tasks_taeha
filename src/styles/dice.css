@@ -2,14 +2,36 @@
   width: 500px;
   height: 500px;
   margin-top: 100px;
-  background-color: var(--TRUE_GREY);
   display: flex;
   align-items: center;
   flex-direction: column;
+  font-size: 16px;
 }
 
 .dice-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+.dice-top button {
+  color: var(--WHITE);
+  background-color: var(--GREY);
+  font-size: 20px;
+  padding: 5px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.dice-top button:hover {
+  color: var(--WHITE);
+  background-color: var(--BLACK);
+}
+
+.dice-image {
+  width: 100px;
+  height: 100px;
 }
 
 .dice-bottom {
@@ -18,9 +40,16 @@
 
 .dice-table th {
   border-bottom: 1px solid var(--BLACK);
-  margin-bottom: 10px;
+  text-align: center;
 }
 
-.dice-table-row {
-  margin-top: 100px;
+.dice-table td {
+  text-align: center;
+}
+
+.dice-table tbody:before {
+    content: "@";
+    display: block;
+    line-height: 10px;
+    text-indent: -99999px;
 }

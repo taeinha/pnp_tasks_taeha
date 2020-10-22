@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import diceAssets from '../constants/diceAssets';
 
 // Create a react app to simulate the roll of a 6 sided die.
 
@@ -15,10 +16,14 @@ const Dice = props => {
   const { results, rolling } = state;
 
   const roll = async () => {
+    if (rolling) return;
     let result = Math.floor(Math.random() * 6) + 1;
-    setState({
-      results: [ result, ...results.slice(0, 9) ]
-    });
+    await setState({ rolling: true, results });
+    await setTimeout(() => setState({
+      results: [ result, ...results.slice(0, 9) ],
+      rolling: false,
+    }), 2000);
+    
   };
 
   const tableResults = () => {
@@ -32,18 +37,27 @@ const Dice = props => {
       </>
     ) : (
       <tr>
-        <td className='dice-table-row'>No rolls yet.</td>
+        <td>No rolls yet.</td>
       </tr>
     );
   };
 
+  const renderDice = () => {
+    if (rolling) {
+      return diceAssets.rollingDice;
+    } else if (results.length === 0) {
+      return diceAssets.diceRandom;
+    } else {
+      return diceAssets[results[0]];
+    }
+  }
+
 
   return (
     <div className='dice-container'>
+      <h1>Roll the Dice</h1>
+      <img src={renderDice()} className='dice-image'/>
       <div className='dice-top'>
-        { results.length > 0 && <div>
-            { results[0] }
-          </div> }
         <button
           onClick={roll}
         >
@@ -53,10 +67,12 @@ const Dice = props => {
 
       <div className='dice-bottom'>
         <table className='dice-table'>
-          <tbody>
+          <thead>
             <tr>
               <th>Last 10 rolls</th>
             </tr>
+          </thead>
+          <tbody>
             {tableResults()}
           </tbody>
         </table>
