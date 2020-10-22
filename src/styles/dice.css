@@ -1,0 +1,26 @@
+.dice-container {
+  width: 500px;
+  height: 500px;
+  margin-top: 100px;
+  background-color: var(--TRUE_GREY);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.dice-top {
+
+}
+
+.dice-bottom {
+  margin-top: 50px;
+}
+
+.dice-table th {
+  border-bottom: 1px solid var(--BLACK);
+  margin-bottom: 10px;
+}
+
+.dice-table-row {
+  margin-top: 100px;
+}
