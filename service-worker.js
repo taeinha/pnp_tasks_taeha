@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/pnp_tasks_taeha/precache-manifest.86c62057597fedbb7bae03df2847c749.js"
+  "/pnp_tasks_taeha/precache-manifest.36e82eb108b74efd324574a8a44044ef.js"
 );
 
 self.addEventListener('message', (event) => {
