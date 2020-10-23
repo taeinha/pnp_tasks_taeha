@@ -45,6 +45,8 @@
   padding: 5px 10px;
   border-radius: 5px;
   border: 2px solid var(--BLACK);
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 @media (max-width: 479px) {
