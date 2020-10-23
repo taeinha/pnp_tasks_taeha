@@ -27,3 +27,7 @@ ul.footer-container > li > a:hover {
 ul.footer-container > a {
   color: var(--WHITE) !important;
 }
+
+.footer-icon {
+  color: var(--WHITE);
+}
