@@ -1,4 +1,4 @@
-.footer-container {
+ul.footer-container {
   width: 100%;
   display: flex;
   align-items: center;
@@ -12,18 +12,18 @@
   margin: 0 !important;
 }
 
-.footer-container > li {
+ul.footer-container > li {
   margin-right: 20px;
 }
 
-.footer-container > li:first-of-type {
+ul.footer-container > li:first-of-type {
   margin-right: 40px;
 }
 
-.footer-container > li > a:hover {
+ul.footer-container > li > a:hover {
   color: var(--SKY_BLUE);
 }
 
-.footer-container > a {
+ul.footer-container > a {
   color: var(--WHITE) !important;
 }
