@@ -28,7 +28,8 @@ input[type="email"],
 input[type="text"],
 input[type="submit"],
 textarea,
-button {
+button,
+a {
   -webkit-appearance: none;
   -moz-appearance: none;
 }

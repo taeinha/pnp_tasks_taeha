@@ -23,3 +23,7 @@
 .footer-container > li > a:hover {
   color: var(--SKY_BLUE);
 }
+
+.footer-container > a {
+  color: var(--WHITE) !important;
+}
