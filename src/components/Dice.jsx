@@ -31,7 +31,9 @@ const Dice = props => {
       <>
         { results.map((num, i) => (
           <tr key={`result-${i}`}>
-            <td>{num}</td>
+            <td>
+              <img src={diceAssets[num]} alt="dice"/> {num}
+            </td>
           </tr>
         )) }
       </>
@@ -56,7 +58,7 @@ const Dice = props => {
   return (
     <div className='dice-container'>
       <h1>Roll the Dice</h1>
-      <img src={renderDice()} className='dice-image'/>
+      <img src={renderDice()} className='dice-image' alt="dice"/>
       <div className='dice-top'>
         <button
           onClick={roll}

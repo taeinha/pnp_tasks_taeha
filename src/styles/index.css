@@ -1,14 +1,14 @@
 @import "colors.css";
 @import "clean.css";
 @import "dice.css";
+@import "navbar.css";
+@import "change_string.css";
+@import "footer.css";
 
 body {
   margin: 0;
   width: 100%;
   height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -27,4 +27,15 @@ button:focus {
 
 h1, h2, h3, h4, h5 {
   font-family: Poppins, sans-serif;
+}
+
+.App, #root {
+  width: 100%;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

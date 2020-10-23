@@ -1,0 +1,27 @@
+.nav-bar-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  background-color: var(--LIGHT_PURPLE);
+  padding: 10px 0;
+  position: relative;
+}
+
+.nav-bar-container > div {
+  background-color: var(--LIGHT_GREY);
+  border-radius: 5px;
+  border: 2px solid var(--GREY);
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.nav-bar-container > div:hover {
+  background-color: var(--BLACK);
+  color: var(--WHITE);
+}
+
+.nav-bar-task-one {
+  margin-right: 30px;
+}
