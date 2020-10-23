@@ -5,13 +5,13 @@ const NavBar = props => {
   return (
     <div className='nav-bar-container'>
       <div 
-        onClick={() => props.history.push('/')}
+        onClick={() => props.history.push('/pnp_tasks_taeha/')}
         className='nav-bar-task-one'
       >
         Task 1
       </div>
       <div 
-        onClick={() => props.history.push('/task-two')}
+        onClick={() => props.history.push('/pnp_tasks_taeha/task-two')}
         className='nav-bar-task-two'
       >
         Task 2

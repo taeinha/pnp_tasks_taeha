@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <NavBar />
       <Switch>
-        <Route exact path="/task-two" component={ChangeString} />
+        <Route exact path="/pnp_tasks_taeha/task-two" component={ChangeString} />
         <Route path="/" component={Dice} />
       </Switch>
       <Footer />
