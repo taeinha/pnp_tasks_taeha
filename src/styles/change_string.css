@@ -9,6 +9,7 @@
 
 .string-container > h1 {
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .string-container > label {
