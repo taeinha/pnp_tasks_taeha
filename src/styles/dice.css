@@ -1,7 +1,7 @@
 .dice-container {
   max-width: 500px;
-  height: 500px;
   margin-top: 100px;
+  margin-bottom: 100px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -78,4 +78,10 @@
 .dice-table tbody tr:nth-child(even) {
   background-color: var(--GREY);
   color: var(--WHITE);
+}
+
+@media (max-width: 479px) {
+  .dice-container {
+    margin-top: 40px;
+  }
 }
