@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/pnp_tasks_taeha/static/css/main.ac26f09f.chunk.css",
-    "main.js": "/pnp_tasks_taeha/static/js/main.697d09f6.chunk.js",
-    "main.js.map": "/pnp_tasks_taeha/static/js/main.697d09f6.chunk.js.map",
+    "main.css": "/pnp_tasks_taeha/static/css/main.c2583218.chunk.css",
+    "main.js": "/pnp_tasks_taeha/static/js/main.ef748ec2.chunk.js",
+    "main.js.map": "/pnp_tasks_taeha/static/js/main.ef748ec2.chunk.js.map",
     "runtime-main.js": "/pnp_tasks_taeha/static/js/runtime-main.c903dc9a.js",
     "runtime-main.js.map": "/pnp_tasks_taeha/static/js/runtime-main.c903dc9a.js.map",
-    "static/js/2.f3b6ba27.chunk.js": "/pnp_tasks_taeha/static/js/2.f3b6ba27.chunk.js",
-    "static/js/2.f3b6ba27.chunk.js.map": "/pnp_tasks_taeha/static/js/2.f3b6ba27.chunk.js.map",
+    "static/js/2.f9a64ade.chunk.js": "/pnp_tasks_taeha/static/js/2.f9a64ade.chunk.js",
+    "static/js/2.f9a64ade.chunk.js.map": "/pnp_tasks_taeha/static/js/2.f9a64ade.chunk.js.map",
     "index.html": "/pnp_tasks_taeha/index.html",
-    "precache-manifest.afa08ad5c480b6569c6b7601a698575a.js": "/pnp_tasks_taeha/precache-manifest.afa08ad5c480b6569c6b7601a698575a.js",
+    "precache-manifest.135e752e675f0377ce4c5d8f3117d64a.js": "/pnp_tasks_taeha/precache-manifest.135e752e675f0377ce4c5d8f3117d64a.js",
     "service-worker.js": "/pnp_tasks_taeha/service-worker.js",
-    "static/css/main.ac26f09f.chunk.css.map": "/pnp_tasks_taeha/static/css/main.ac26f09f.chunk.css.map",
-    "static/js/2.f3b6ba27.chunk.js.LICENSE.txt": "/pnp_tasks_taeha/static/js/2.f3b6ba27.chunk.js.LICENSE.txt",
+    "static/css/main.c2583218.chunk.css.map": "/pnp_tasks_taeha/static/css/main.c2583218.chunk.css.map",
+    "static/js/2.f9a64ade.chunk.js.LICENSE.txt": "/pnp_tasks_taeha/static/js/2.f9a64ade.chunk.js.LICENSE.txt",
     "static/media/dice_five.png": "/pnp_tasks_taeha/static/media/dice_five.bc4c0ab8.png",
     "static/media/dice_four.png": "/pnp_tasks_taeha/static/media/dice_four.09045f8b.png",
     "static/media/dice_roll.gif": "/pnp_tasks_taeha/static/media/dice_roll.96c2bb15.gif",
@@ -22,8 +22,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.c903dc9a.js",
-    "static/js/2.f3b6ba27.chunk.js",
-    "static/css/main.ac26f09f.chunk.css",
-    "static/js/main.697d09f6.chunk.js"
+    "static/js/2.f9a64ade.chunk.js",
+    "static/css/main.c2583218.chunk.css",
+    "static/js/main.ef748ec2.chunk.js"
   ]
 }

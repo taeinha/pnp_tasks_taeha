@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c07fb8de7de2da708659f76503025963",
+    "revision": "97c0ba1e679e340ec7fe609ec61a04cb",
     "url": "/pnp_tasks_taeha/index.html"
   },
   {
-    "revision": "f81f4223cb4ea253f592",
-    "url": "/pnp_tasks_taeha/static/css/main.ac26f09f.chunk.css"
+    "revision": "2edc9a9d56341349dc88",
+    "url": "/pnp_tasks_taeha/static/css/main.c2583218.chunk.css"
   },
   {
-    "revision": "ea781eba0a354af0f312",
-    "url": "/pnp_tasks_taeha/static/js/2.f3b6ba27.chunk.js"
+    "revision": "b9bb7160a4d904bcf277",
+    "url": "/pnp_tasks_taeha/static/js/2.f9a64ade.chunk.js"
   },
   {
-    "revision": "3c73c585782ac05880c0f89bcfdbba5a",
-    "url": "/pnp_tasks_taeha/static/js/2.f3b6ba27.chunk.js.LICENSE.txt"
+    "revision": "f5fc2afae58c4ffc30c6148864765d4b",
+    "url": "/pnp_tasks_taeha/static/js/2.f9a64ade.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f81f4223cb4ea253f592",
-    "url": "/pnp_tasks_taeha/static/js/main.697d09f6.chunk.js"
+    "revision": "2edc9a9d56341349dc88",
+    "url": "/pnp_tasks_taeha/static/js/main.ef748ec2.chunk.js"
   },
   {
     "revision": "c11d8b807a43f33cc4cd",
