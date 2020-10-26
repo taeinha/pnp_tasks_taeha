@@ -1,21 +1,23 @@
-import React from 'react';
-import { Switch, Route, withRouter } from 'react-router-dom';
+import React, { useState } from 'react';
 import ChangeString from './components/ChangeString';
 import Dice from './components/Dice';
 import Footer from './components/Footer';
 import NavBar from './components/NavBar';
 
 function App() {
+
+  const [ step, setStep ] = useState(1);
+
   return (
     <div className="App">
-      <NavBar />
-      <Switch>
-        <Route exact path="/pnp_tasks_taeha/task-two" component={ChangeString} />
-        <Route path="/" component={Dice} />
-      </Switch>
+      <NavBar setStep={setStep} />
+
+      {step === 1 && <Dice />}
+      {step === 2 && <ChangeString />}
+
       <Footer />
     </div>
   );
 }
 
-export default withRouter(App);
+export default App;

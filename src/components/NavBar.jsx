@@ -1,17 +1,16 @@
 import React from 'react';
-import { withRouter } from "react-router-dom";
 
-const NavBar = props => {
+const NavBar = ({ setStep }) => {
   return (
     <div className='nav-bar-container'>
       <div 
-        onClick={() => props.history.push('/pnp_tasks_taeha/')}
+        onClick={() => setStep(1)}
         className='nav-bar-task-one'
       >
         Task 1
       </div>
       <div 
-        onClick={() => props.history.push('/pnp_tasks_taeha/task-two')}
+        onClick={() => setStep(2)}
         className='nav-bar-task-two'
       >
         Task 2
@@ -20,4 +19,4 @@ const NavBar = props => {
   )
 };
 
-export default withRouter(NavBar);
+export default NavBar;

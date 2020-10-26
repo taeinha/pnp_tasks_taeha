@@ -12,35 +12,52 @@ const Dice = props => {
   const [state, setState] = useState({
     rolling: false,
     results: [],
+    counts: {
+      1: 0,
+      2: 0,
+      3: 0,
+      4: 0,
+      5: 0,
+      6: 0
+    }
   });
-  const { results, rolling } = state;
+  const { results, rolling, counts } = state;
 
   const roll = async () => {
     if (rolling) return;
     let result = Math.floor(Math.random() * 6) + 1;
-    await setState({ rolling: true, results });
-    await setTimeout(() => setState({
-      results: [ result, ...results.slice(0, 9) ],
+    await setState({ rolling: true, results, counts });
+    await setTimeout(() => addResult(result), 2000);
+  };
+
+  const addResult = (roll) => {
+    const newResults = Object.assign(results);
+    const newCounts = Object.assign(counts);
+
+    if (newResults.length >= 10) {
+      newCounts[newResults.pop()]--;
+    }
+
+    newResults.unshift(roll);
+    newCounts[roll]++;
+
+    setState({
+      results: newResults,
       rolling: false,
-    }), 2000);
-    
+      counts: newCounts
+    });
   };
 
   const tableResults = () => {
-    return results.length > 0 ? (
+    return (
       <>
-        { results.map((num, i) => (
+        { Object.keys(counts).map((roll, i) => (
           <tr key={`result-${i}`}>
-            <td>
-              <img src={diceAssets[num]} alt="dice"/> {num}
-            </td>
+            <td><img src={diceAssets[roll]} alt="dice"/></td>
+            <td className="dice-counts">{counts[roll]}</td>
           </tr>
         )) }
       </>
-    ) : (
-      <tr>
-        <td>No rolls yet.</td>
-      </tr>
     );
   };
 
@@ -58,8 +75,8 @@ const Dice = props => {
   return (
     <div className='dice-container'>
       <h1>Roll the Dice</h1>
-      <img src={renderDice()} className='dice-image' alt="dice"/>
       <div className='dice-top'>
+        <img src={renderDice()} className='dice-image' alt="dice"/>
         <button
           onClick={roll}
         >
@@ -68,10 +85,12 @@ const Dice = props => {
       </div>
 
       <div className='dice-bottom'>
+        <h3>Last 10 Results</h3>
         <table className='dice-table'>
           <thead>
             <tr>
-              <th>Last 10 rolls</th>
+              <th>Roll</th>
+              <th>Count</th>
             </tr>
           </thead>
           <tbody>
