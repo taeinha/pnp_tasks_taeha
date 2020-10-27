@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/pnp_tasks_taeha/static/css/main.c2583218.chunk.css",
-    "main.js": "/pnp_tasks_taeha/static/js/main.ef748ec2.chunk.js",
-    "main.js.map": "/pnp_tasks_taeha/static/js/main.ef748ec2.chunk.js.map",
+    "main.js": "/pnp_tasks_taeha/static/js/main.6bbacef1.chunk.js",
+    "main.js.map": "/pnp_tasks_taeha/static/js/main.6bbacef1.chunk.js.map",
     "runtime-main.js": "/pnp_tasks_taeha/static/js/runtime-main.c903dc9a.js",
     "runtime-main.js.map": "/pnp_tasks_taeha/static/js/runtime-main.c903dc9a.js.map",
     "static/js/2.f9a64ade.chunk.js": "/pnp_tasks_taeha/static/js/2.f9a64ade.chunk.js",
     "static/js/2.f9a64ade.chunk.js.map": "/pnp_tasks_taeha/static/js/2.f9a64ade.chunk.js.map",
     "index.html": "/pnp_tasks_taeha/index.html",
-    "precache-manifest.135e752e675f0377ce4c5d8f3117d64a.js": "/pnp_tasks_taeha/precache-manifest.135e752e675f0377ce4c5d8f3117d64a.js",
+    "precache-manifest.cfa21a52f647374db71b1aaf527a3d09.js": "/pnp_tasks_taeha/precache-manifest.cfa21a52f647374db71b1aaf527a3d09.js",
     "service-worker.js": "/pnp_tasks_taeha/service-worker.js",
     "static/css/main.c2583218.chunk.css.map": "/pnp_tasks_taeha/static/css/main.c2583218.chunk.css.map",
     "static/js/2.f9a64ade.chunk.js.LICENSE.txt": "/pnp_tasks_taeha/static/js/2.f9a64ade.chunk.js.LICENSE.txt",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.c903dc9a.js",
     "static/js/2.f9a64ade.chunk.js",
     "static/css/main.c2583218.chunk.css",
-    "static/js/main.ef748ec2.chunk.js"
+    "static/js/main.6bbacef1.chunk.js"
   ]
 }

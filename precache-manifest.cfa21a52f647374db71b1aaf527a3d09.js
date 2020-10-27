@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "97c0ba1e679e340ec7fe609ec61a04cb",
+    "revision": "570ad29f4c58233e8df4cd253449f0dc",
     "url": "/pnp_tasks_taeha/index.html"
   },
   {
-    "revision": "2edc9a9d56341349dc88",
+    "revision": "4ac7f107a9f0004064f9",
     "url": "/pnp_tasks_taeha/static/css/main.c2583218.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pnp_tasks_taeha/static/js/2.f9a64ade.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2edc9a9d56341349dc88",
-    "url": "/pnp_tasks_taeha/static/js/main.ef748ec2.chunk.js"
+    "revision": "4ac7f107a9f0004064f9",
+    "url": "/pnp_tasks_taeha/static/js/main.6bbacef1.chunk.js"
   },
   {
     "revision": "c11d8b807a43f33cc4cd",
