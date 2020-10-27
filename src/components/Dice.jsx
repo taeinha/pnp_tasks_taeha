@@ -42,8 +42,8 @@ const Dice = props => {
     newCounts[roll]++;
 
     setState({
-      results: newResults,
       rolling: false,
+      results: newResults,
       counts: newCounts
     });
   };
