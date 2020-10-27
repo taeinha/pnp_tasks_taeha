@@ -16,7 +16,8 @@
   margin-bottom: 20px;
   display: flex;
   width: 100%;
-  margin-left: 14px;
+  padding-left: 14px;
+  box-sizing: border-box;
 }
 
 .string-container > div {
@@ -25,7 +26,7 @@
 }
 
 .string-container > div > p {
-  margin: 0 10px;
+  margin: 0 0 0 10px;
 }
 
 .string-container textarea {
@@ -34,7 +35,7 @@
   border-radius: 5px;
   border: 2px solid var(--BLACK);
   margin-left: 10px;
-  width: 300px;
+  width: 100%;
   white-space: wrap;
   resize: none;
 }
@@ -57,4 +58,12 @@
   .string-container {
     margin-top: 40px;
   }
+
+  .string-container textarea {
+    width: 100%;
+  }
+
+  /* .string-output {
+    width: 70%;
+  } */
 }
