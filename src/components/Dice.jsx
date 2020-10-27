@@ -31,8 +31,8 @@ const Dice = props => {
   };
 
   const addResult = (roll) => {
-    const newResults = Object.assign(results);
-    const newCounts = Object.assign(counts);
+    const newResults = Object.assign([], results);
+    const newCounts = Object.assign({}, counts);
 
     if (newResults.length >= 10) {
       newCounts[newResults.pop()]--;
