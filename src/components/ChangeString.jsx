@@ -21,7 +21,7 @@ const ChangeString = props => {
     <div className='string-container'>
       <h1>String Manipulation</h1>
       <label>
-        Input:
+        <span>Input:</span>
         <textarea 
           type='text'
           name='inputName'

@@ -15,8 +15,8 @@
 .string-container > label {
   margin-bottom: 20px;
   display: flex;
-  align-items: center;
   width: 100%;
+  margin-left: 14px;
 }
 
 .string-container > div {
@@ -24,12 +24,16 @@
   width: 100%;
 }
 
+.string-container > div > p {
+  margin: 0 10px;
+}
+
 .string-container textarea {
   background-color: var(--LIGHT_GREY);
   padding: 5px 10px;
   border-radius: 5px;
   border: 2px solid var(--BLACK);
-  margin-left: 24px;
+  margin-left: 10px;
   width: 300px;
   white-space: wrap;
   resize: none;
